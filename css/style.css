@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: HelveticaNeue;
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("./assets/fonts/HelveticaNeue.ttc");
+  }
+
+body{
+    
+        background: url(/images/cover.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      
+}   
+
+.header{
+    height: 90px;
+    width: 1780px;
+    
+    border: 1px solid rgba(8, 8, 8, 0.5);
+    margin-top: 0px;
+    margin-left: 70px;
+    margin-right:70px;
+   border-style: hidden hidden solid hidden;
+   
+    
+}
+#logo{
+    height: 38px;
+    width: 236px;
+    padding-top: 26px;
+    margin-left: 0px;
+}
+.stampandbox{
+    height: 300px;
+    width: 648px;
+    position: relative;    
+    margin-top: 474px;
+    margin-bottom: 308px;
+    margin-left: 728px;
+    margin-right: 546px;
+    padding: 40px;
+   
+}
+.stamp{
+width: 300px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 348px;
+
+
+
+}
+.addResumeBox{
+        
+    margin-bottom: 200px;
+    margin-left: 0px;
+    margin-right: 184px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+   position: relative;
+     
+  
+
+}
+.addresumetext{
+    padding-top:18px;
+    text-align: center;
+    color: #fff;
+    size: 20px;
+    font-weight: 500;
+    
+}
