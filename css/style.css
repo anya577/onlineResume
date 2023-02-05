@@ -55,6 +55,7 @@ body{
     margin-left: 150px;
     margin-right:150px;
    border-style: hidden hidden solid hidden; 
+  
 
 }
 #logo{
@@ -106,7 +107,27 @@ width: 300px;
     font-weight: 500;
     
 }
+/* span{
+    margin-left: 58px;
+    margin-top: 62px;
+    width: 40px;
+    height: 40px;
 
+} */
+.fa-chevron-left{
+    margin-left: 58px;
+    margin-top: 62px;
+    width: 40px;
+    height: 40px;
+       
+    
+}
+.icon{
+    float: left;
+    width: 10px;
+    height: 10px;
+
+}
 h2{
     
     float: left;
@@ -125,6 +146,13 @@ h3{
     line-height: 24px;
     clear: both;
     margin-top: -16px;
+}
+
+.personalinfo{
+    width: 1100px;
+    height: 800px;
+    /* background-color: #474747; */
+    
 }
 .firstLastNames{
     margin-top: 70px;
@@ -160,14 +188,22 @@ h3{
 
 }
 .container{
+    /* width: 360px; */
+    width: 530px;
+    height: 30px;
     padding-top: 46px;
+   display: flex;
+}
+.photo0{
+    
     /* width: 350px; */
-    display: flex;
+    /* flex-basis: 50px; */
     width: 800px;
+    margin-right: 10px;
     
 }
 .photo{
-    padding-top: 46px;
+    
     padding-left: 126px;
     
     font-size: 18px;
@@ -177,18 +213,109 @@ h3{
 }
 
 .uploadphoto{
-    padding-left: 20px;
+    
     width: 108px;
     height: 28px;
     background-color: #0E80BF;
-    font-size: 14px;
-    float:left;
+    /* flex-basis:50px; */
+    float:right;
     
 }
 .upload{
     color: #fff;
     padding-top: 4px;
+    padding-left: 18px;
+    padding-right: 18px;
     text-align: justify;
+    font-size: 14px;
+
+}
+/* .simpletext{
+    padding-bottom: 4px;
+} */
+.aboutMe{
+    width: 798px;
+    height: 104px;
+    margin-top: 50px;
+    margin-left: 126px;
+}
+.info{
+    width: 846px;
+    height: 140px;
+}
+.info{
+    margin-top: 6px;
+
+}
+input[type="info"]::placeholder {
+    /* text-align: left; */
+    margin-top: 10px;
+    padding-left: 6px;   
+    position: absolute;         
+   
+}
+.email{
+    
+    width: 846px;
+    height: 26px;
+    margin-top: 90px;
+    margin-left: 126px;
+    position: relative;
+}
+.emailbox{
+    width: 766px;
+    height:24px;
+    position: absolute;
+    
+}
+.email0, .mobile0{
+    width: 846px;
+    height:30px;
+
+}
+
+.mobile{
+    
+    width: 846px;
+    height: 122px;
+    
+    margin-top: 90px;
+    margin-left: 126px
+}
+.mobilebox{
+    width: 798px;
+    height: 48px;
+}
+.nextPage{
+    width: 150px;
+    height: 48px;
+    background-color: #6B40E3;
+    margin-left: 820px;
+    margin-bottom: 2px;
+}
+.simpletext1{
+    color: #fff;
+    text-align: center;
+    padding-top: 12px;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.smalllogo{
+    margin-bottom: 44px;
+    margin-left: 1176px;
+    width: 42px;
 }
