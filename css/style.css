@@ -286,36 +286,85 @@ input[type="info"]::placeholder {
     width: 798px;
     height: 48px;
 }
+.previousnext{
+  width: 798px; 
+  margin-top: 40px;                                                                                    
+  display: flex; 
+  flex: wrap;
+  margin-right: 100px;
+  position: relative;
+}
+.previousPage{
+    width: 112px;
+    height:48px;
+    background-color: #6B40E3;
+    float: left;    
+    position: relative;
+   
+
+    
+}
+
 .nextPage{
     width: 150px;
     height: 48px;
     background-color: #6B40E3;
     margin-left: 820px;
     margin-bottom: 2px;
+    float: right;
+    position: absolute;
+    
 }
+.nextPage2{
+    width: 150px;
+    height: 48px;
+    background-color: #6B40E3;
+    margin-left: 710px;
+    margin-bottom: 2px;
+    
+    position: absolute;
+}
+
 .simpletext1{
     color: #fff;
     text-align: center;
     padding-top: 12px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .smalllogo{
     margin-bottom: 44px;
     margin-left: 1176px;
     width: 42px;
+}
+.employer{
+    margin-top: 30px;
+
+}
+.time{
+    margin-top: 30px;
+}
+.time0{
+    float: right;
+}
+.jobdescription{
+    margin-top: 30px; 
+}
+.HL{
+        margin-top: 50px;
+        border: 1px solid #C1C1C1 ;
+      }
+
+.moreexperience{
+    width: 290px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #62A1EB;
+}
+.text{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 14px;
+
 }
