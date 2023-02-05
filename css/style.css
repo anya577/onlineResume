@@ -4,35 +4,58 @@
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: HelveticaNeue;
 }
 
 @font-face {
-    font-family: "HelveticaNeue";
-    src: url("./assets/fonts/HelveticaNeue.ttc");
+    font-family: "Helvetica Neue", sans-serif;
+    src: url("/fonts/HelveticaNeue-01.ttf");
+    src: url("/fonts/HelveticaNeue-Bold-02.ttf");
+    src: url("/fonts/HelveticaNeue-BoldItalic-04.ttf");
+    src: url("/fonts/HelveticaNeue-CondensedBlack-10.ttf");
+    src: url("/fonts/HelveticaNeue-CondensedBold-05.ttf");
+    src: url("/fonts/HelveticaNeue-Italic-03.ttf");
+    src: url("/fonts/HelveticaNeue-Light-08.ttf");
+    src: url("/fonts/HelveticaNeue-LightItalic-09.ttf");
+    src: url("/fonts/HelveticaNeue-Medium-11.ttf");
+    src: url("/fonts/HelveticaNeue-MediumItalic-12.ttf");
+    src: url("/fonts/HelveticaNeue-Thin-13.ttf");
+    src: url("/fonts/HelveticaNeue-ThinItalic-14.ttf");
+    src: url("/fonts/HelveticaNeue-UltraLight-06.ttf");
+    src: url("/fonts/HelveticaNeue-UltraLightItalic-07.ttf");
+
   }
+  
 
 body{
-    
-        background: url(/images/cover.png) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        width: 100%;
+        background: url(/images/cover.png) no-repeat center fixed; 
+        
         background-size: cover;
       
 }   
 
 .header{
     height: 90px;
-    width: 1780px;
+    /* width: 1780px; */
+    width: 2920px;
     
     border: 1px solid rgba(8, 8, 8, 0.5);
     margin-top: 0px;
     margin-left: 70px;
     margin-right:70px;
-   border-style: hidden hidden solid hidden;
-   
-    
+   border-style: hidden hidden solid hidden;    
+}
+
+.h1{
+    height: 88px;
+    /* width: 1780px; */
+    width: 798px;    
+    border: 1px solid rgba(8, 8, 8, 0.5);
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-right:150px;
+   border-style: hidden hidden solid hidden; 
+
 }
 #logo{
     height: 38px;
@@ -46,7 +69,8 @@ body{
     position: relative;    
     margin-top: 474px;
     margin-bottom: 308px;
-    margin-left: 728px;
+    /* margin-left: 728px; */
+    margin-left: 1300px;
     margin-right: 546px;
     padding: 40px;
    
@@ -81,4 +105,90 @@ width: 300px;
     size: 20px;
     font-weight: 500;
     
+}
+
+h2{
+    
+    float: left;
+    font-size: 24px;
+    font-weight: 700;    
+    line-height: 29px;
+    clear: both;
+    margin-top:44px;
+    
+}
+h3{
+    text-align: right;
+    float: right;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    clear: both;
+    margin-top: -16px;
+}
+.firstLastNames{
+    margin-top: 70px;
+    margin-left: 126px;
+    width: 798px;
+    display: flex;
+    
+    border-style: hidden hidden hidden hidden;
+
+}
+/* .fln{
+    width: 420px;
+    height: 122px;
+} */
+.firstName {
+    width: 420px;
+    height: 74px;
+    flex-basis: auto;
+    padding-left: 16px;
+    
+    
+}
+.lastName{
+    width: 420px;
+    height: 74px;
+    flex-basis: auto;
+    padding-left: 16px;
+    
+}
+.low{
+    margin-top: 8px;
+    color: rgba(8, 8, 8, 0.5);
+
+}
+.container{
+    padding-top: 46px;
+    /* width: 350px; */
+    display: flex;
+    width: 800px;
+    
+}
+.photo{
+    padding-top: 46px;
+    padding-left: 126px;
+    
+    font-size: 18px;
+    font-weight: 500;
+    float: left;
+
+}
+
+.uploadphoto{
+    padding-left: 20px;
+    width: 108px;
+    height: 28px;
+    background-color: #0E80BF;
+    font-size: 14px;
+    float:left;
+    
+}
+.upload{
+    color: #fff;
+    padding-top: 4px;
+    text-align: justify;
+
+
 }
