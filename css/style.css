@@ -23,16 +23,23 @@
     src: url("/fonts/HelveticaNeue-UltraLight-06.ttf");
     src: url("/fonts/HelveticaNeue-UltraLightItalic-07.ttf");
 
+      }
+  html{
+    
+    background: url(/images/cover.png) no-repeat center fixed;
   }
   
 
 body{
         width: 100%;
-        background: url(/images/cover.png) no-repeat center fixed; 
+        
         
         background-size: cover;
-      
+       
 }   
+body::-webkit-scrollbar{
+    display: none;
+  }
 
 .header{
     height: 90px;
@@ -367,4 +374,15 @@ input[type="info"]::placeholder {
     text-align: center;
     padding-top: 14px;
 
+}
+.moreexperience0{
+    width: 290px;
+    height: 50px;
+    margin-top: 340px;
+    margin-left: 126px;
+    background-color: #62A1EB; 
+}   
+.previousnext0{
+    margin-top: 30px;
+    margin-left: 126px;
 }
